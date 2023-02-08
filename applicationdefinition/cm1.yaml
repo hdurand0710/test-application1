@@ -1,0 +1,24 @@
+apiVersion: apps.kubermatic.k8c.io/v1
+kind: ApplicationDefinition
+metadata:
+  name: ln-cm1
+spec:
+  description: Deploys a cm1
+  method: helm
+  versions:
+    - template:
+        source:
+          git:
+            path: examplechart
+            ref:
+              branch: main
+            remote: https://github.com/hdurand0710/test-application1.git
+      version: 1.0.0
+    - template:
+          source:
+            git:
+              path: examplechart
+              ref:
+                branch: main
+              remote: https://github.com/hdurand0710/test-application1.git
+      version: 1.0.1
