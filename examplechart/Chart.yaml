@@ -18,4 +18,4 @@ version: 0.1.0
 dependencies:
 - name: examplechart
   version: "0.1.0"
-  repository: "https://demo.goharbor.io/chartrepo/helene"
+  repository: "https://demo.goharbor.io/chartrepo/heleneprivate"

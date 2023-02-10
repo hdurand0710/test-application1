@@ -13,6 +13,11 @@ spec:
             ref:
               branch: main
             remote: https://github.com/hdurand0710/test-application1.git
+        templateCredentials:
+          helmCredentials:
+              registryConfigFile:
+                key: .dockerconfigjson
+                name: ln-helm-oci-private
       version: 1.0.0
     - template:
           source:
@@ -26,5 +31,5 @@ spec:
              helm:
                chartName: examplechart
                chartVersion: 0.1.0
-               url: oci://demo.goharbor.io/helene
+               url: oci://demo.goharbor.io/heleneprivate
       version: 1.0.2
