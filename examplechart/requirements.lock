@@ -1,6 +1,6 @@
 dependencies:
 - name: examplechart
-  repository: https://demo.goharbor.io/chartrepo/heleneprivate
+  repository: oci://demo.goharbor.io/heleneprivate
   version: 0.1.0
-digest: sha256:b10e6948c1a3abba69ad84c57a80ca35f2e8935497b3df21eec6116ed42bb331
-generated: "2023-02-10T15:13:02.840844+01:00"
+digest: sha256:d2e4d9ab8dabe2af36d8eb652f574951f6f7df7ce90a1422101cc83b1a348a40
+generated: "2023-02-10T15:18:24.894398+01:00"
