@@ -16,9 +16,15 @@ spec:
       version: 1.0.0
     - template:
           source:
-            git:
-              path: examplechart
-              ref:
-                branch: main
-              remote: https://github.com/hdurand0710/test-application1.git
+             helm:
+               chartName: examplechart
+               chartVersion: 0.1.0
+               url: https://demo.goharbor.io/chartrepo/helene
       version: 1.0.1
+    - template:
+          source:
+             helm:
+               chartName: examplechart
+               chartVersion: 0.1.0
+               url: oci://demo.goharbor.io/helene
+      version: 1.0.2
