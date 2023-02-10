@@ -21,3 +21,6 @@ cmData:
   foo: cm1-bar
 
 versionLabel: "1.0"
+
+examplechart:
+  foo: cm2-bar
